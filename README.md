@@ -92,7 +92,7 @@ spring.cloud.function.scan.packages=com.myexample.serverless.functions
 
 ### テスト
 * `curl -H "Content-Type: text/plain" localhost:8080/charCounter -d Hello`
-  * `5` が返る
+  * `5` が返る
 
 ## JSON でやりとりする
 * Lombok を build.gradle に追加
